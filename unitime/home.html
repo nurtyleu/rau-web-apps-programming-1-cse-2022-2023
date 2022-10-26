@@ -109,32 +109,145 @@
         </div>
 
         <!-- This is the chat section. This needs to be on all pages. -->
-        <div class="container-for-chat">
-            <div class="container-for-chat-child">
+        <div class="container-for-chat" border=1px solid black  >
+            <div border="1px" solid black></div>
+            <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,600,700' rel='stylesheet' type='text/css'>
 
-            </div>
-            <div class="container-for-chat-child">
-                <div class="chat-grid">
-                    <div class="chat-grid-child">
-                        <br>
-                        <label for="mate">Search mate:</label>
-                        <input type="text" id="mate" name="mate"><br>
-                        <br>
+            <div id="chatbox">
+                <div id="friendslist">
+                    <div id="topmenu">
+                        <span class="friends"></span>
+                        <span class="chats"></span>
+                         <!-- <span class="history"></span>-->
                     </div>
-                    <div class="chat-grid-child">
-                        <label for="last-msg">Last Message:</label><br>
-                        Gigel : Don't forget to send the the project files for Advanced Software Programming!<br>
+
+                    <div id="friends">
+                        <div class="friend">
+                            <img src="https://e7.pngegg.com/pngimages/831/88/png-clipart-user-profile-computer-icons-user-interface-mystique-miscellaneous-user-interface-design.png" />
+                            <p>
+                                <strong>Profil1</strong>
+                                <span>any@gmail.com</span>
+                            </p>
+                            <div class="status available"></div>
+                        </div>
+
+                        <div class="friend">
+                            <img src="https://e7.pngegg.com/pngimages/831/88/png-clipart-user-profile-computer-icons-user-interface-mystique-miscellaneous-user-interface-design.png" />
+                            <p>
+                                <strong>Profil2</strong>
+                                <span>any2@gmail.com</span>
+                            </p>
+                            <div class="status away"></div>
+                        </div>
+
+                        <div class="friend">
+                            <img src="https://e7.pngegg.com/pngimages/831/88/png-clipart-user-profile-computer-icons-user-interface-mystique-miscellaneous-user-interface-design.png" />
+                            <p>
+                                <strong>Profil3</strong>
+                                <span>any3@gmail.com</span>
+                            </p>
+                            <div class="status inactive"></div>
+                        </div>
+
+                        <div class="friend">
+                            <img src="https://e7.pngegg.com/pngimages/831/88/png-clipart-user-profile-computer-icons-user-interface-mystique-miscellaneous-user-interface-design.png" />
+                            <p>
+                                <strong>Profil4</strong>
+                                <span>any4@gmail.com</span>
+                            </p>
+                            <div class="status inactive"></div>
+                        </div>
+
+                        <div class="friend">
+                            <img src="https://e7.pngegg.com/pngimages/831/88/png-clipart-user-profile-computer-icons-user-interface-mystique-miscellaneous-user-interface-design.png" />
+                            <p>
+                                <strong>Profil5</strong>
+                                <span>any5@gmail.com</span>
+                            </p>
+                            <div class="status inactive"></div>
+                        </div>
+
+                        <div id="search">
+                            <input type="text" id="searchfield" value="Search contacts..." />
+                        </div>
+
                     </div>
-                    <div class="chat-grid-child">
-                        <label for="second-last-msg">Previous Message:</label><br>
-                        Ionica : Did you finish the homework for Statistics?<br>
+
+                </div>
+
+                <div id="chatview" class="p1">
+                    <div id="profile">
+
+                        <div id="close">
+                            <div class="cy"></div>
+                            <div class="cx"></div>
+                        </div>
+
+                        <p>profile1</p>
+                        <span>any@gmail.com</span>
                     </div>
-                    <div class="chat-grid-child">
-                        <label for="imp-msg">Message Marked Urgent:</label><br>
-                        Sam : Wanna go for some beers after classes?<br>
+                    <div id="chat-messages">
+                        <label>Thursday 02</label>
+
+                        <div class="message">
+                            <img src="https://e7.pngegg.com/pngimages/831/88/png-clipart-user-profile-computer-icons-user-interface-mystique-miscellaneous-user-interface-design.png" />
+                            <div class="bubble">
+                                Really cool stuff!
+                                <div class="corner"></div>
+                                <span>3 min</span>
+                            </div>
+                        </div>
+
+                        <div class="message right">
+                            <img src="https://e7.pngegg.com/pngimages/831/88/png-clipart-user-profile-computer-icons-user-interface-mystique-miscellaneous-user-interface-design.png" />
+                            <div class="bubble">
+                                Can you share a link for the tutorial?
+                                <div class="corner"></div>
+                                <span>1 min</span>
+                            </div>
+                        </div>
+
+                        <div class="message">
+                            <img src="https://e7.pngegg.com/pngimages/831/88/png-clipart-user-profile-computer-icons-user-interface-mystique-miscellaneous-user-interface-design.png" />
+                            <div class="bubble">
+                                Yeah, hold on
+                                <div class="corner"></div>
+                                <span>Now</span>
+                            </div>
+                        </div>
+
+                        <div class="message right">
+                            <img src="https://e7.pngegg.com/pngimages/831/88/png-clipart-user-profile-computer-icons-user-interface-mystique-miscellaneous-user-interface-design.png" />
+                            <div class="bubble">
+                                Can you share a link for the tutorial?
+                                <div class="corner"></div>
+                                <span>1 min</span>
+                            </div>
+                        </div>
+
+                        <div class="message">
+                            <img src="https://e7.pngegg.com/pngimages/831/88/png-clipart-user-profile-computer-icons-user-interface-mystique-miscellaneous-user-interface-design.png" />
+                            <div class="bubble">
+                                Yeah, hold on
+                                <div class="corner"></div>
+                                <span>Now</span>
+                            </div>
+                        </div>
+
                     </div>
+
+                    <div id="sendmessage">
+                        <input type="text" value="Send message..." />
+                        <button id="send"></button>
+                    </div>
+
                 </div>
             </div>
-        </div>
+
+            <script src="https://drive.google.com/file/d/1C8_aBFbtWW4l7MAb6WX66QyZrOI2HxdN/view?usp=sharing"></script>
+
+                </div>
+            </div> 
+       
     </body>
 </html>
